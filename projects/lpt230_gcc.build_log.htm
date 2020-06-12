@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: limbang limbang, limbang, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.17
+Toolchain Path:  C:\environment\GNU Tools ARM Embedded\5.4 2016q3\bin
+C Compiler:      GCC.exe
+Assembler:       AS.exe
+Linker/Locator:  LD.exe
+Library Manager: AR.exe
+Hex Converter:   OBJCOPY.exe
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DCM.DLL V1.13.4.0
+Target DLL:      UL2CM3.DLL V1.156.1.0
+Dialog DLL:      TCM.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+C:\environment\Project\C_C++\TC1A2\projects\LPT230_gcc.uvprojx
+Project File Date:  01/04/2020
+
+<h2>Output:</h2>
+Build target 'LPT230'
+compiling app_main.c...
+linking...
+After Build - User command #1: ../tools/arm-none-eabi-objcopy -O binary ./lpt230_gcc.elf ./lpt230_gcc.bin
+After Build - User command #2: ../tools/LPB100_IMG_Tools.exe LPB230 lzma  ../tools/bootloader.bin lpt230_gcc.bin ./lpt230_gcc_image.bin ./lpt230_gcc_upgrade.bin
+LZMA 16.04 : Igor Pavlov : Public domain : 2016-10-04
+Input size:  503840 (0 MiB)
+                                                                Output size: 314083 (0 MiB)
+LZMA 16.04 : Igor Pavlov : Public domain : 2016-10-04
+Input size:  314083 (0 MiB)
+                                                                Output size: 503840 (0 MiB)
+Firmware:		crc32=c6031e04 size=503840
+Hiflying OTA file:	crc32=6fffcda4 size=314083
+".\lpt230_gcc.elf" - 0 Error(s), 0 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\environment\Project\C_C++\TC1A2\projects\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\Device\ARM\ARMCM4\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

@@ -1,5 +1,7 @@
 [![HF-LPT230](https://img.shields.io/badge/芯片-HF--LPT230-blue.svg)](http://www.hi-flying.com/iot-module/hf-lpt230)[![BL0937](https://img.shields.io/badge/芯片-BL0937-blue.svg)](http://www.belling.com.cn/product_info.html?id=139)[![GCCj](https://img.shields.io/badge/环境-Keil%205%20+%20GCC-green.svg)](https://pan.baidu.com/s/1nvHUQ1b)[![SecureCRT](https://img.shields.io/badge/烧录-SecureCRT-9cf.svg)](https://www.vandyke.com/download/index.html)[![downloads](https://img.shields.io/github/release/limbang/TC1A2.svg)]()![](http://progressed.io/bar/1?title=Progress)
 
+**因疫情原因还有功能未完善，也没办法测试硬件，有机会在继续**
+
 ## 项目介绍
 
 因为斐讯TC1智能插板服务器关闭，不能使用APP控制，特针对`HF-LPT230`芯片重新写的`SDK`，使用`MQTT `自动发现连接到`Home Assistance`
